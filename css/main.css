@@ -47,7 +47,9 @@ body {
   background: linear-gradient(120deg, #f0ffff, #fff0f5);
   margin: 0 130px;
 }
-/*================Header====================*/
+/*===================
+      HEADER
+====================*/
 header {
   margin-top: 40px;
 }
@@ -122,7 +124,9 @@ p {
   box-shadow: 0 8px 25px#ADD8E6;
 }
 /********************************************/
-/*================Aboutme====================*/
+/*====================================
+           ABOUTME
+==================================*/
 .aboutMe__section {
   margin: 140px auto;
   display: flex;
@@ -201,7 +205,9 @@ p {
   transform: translateY(-2px); /* nhô lên nhẹ */
 }
 
-/*================SKILL====================*/
+/*===================================
+              SKILL
+    =============================*/
 .skills__container {
   display: flex;
   flex-direction: column;
@@ -505,7 +511,10 @@ p {
   background: linear-gradient(90deg, #f7df1e, #ffea00);
   width: 30%;
 }
-/*================LANGUAGES====================*/
+/*=============================
+
+            LANGUAGES
+  ============================*/
 .languages__section {
   display: flex;
   flex-direction: column;
@@ -556,7 +565,9 @@ h2 {
 span {
   color: var(--n-600);
 }
-/*================HOBBIES====================*/
+/*============================
+                HOBBIES
+        ===============================*/
 .hobby__section {
   margin-top: 40px;
   text-align: center;
@@ -625,7 +636,9 @@ span {
 .p {
   color: var(--n-600);
 }
-/*================CHUNGCHI====================*/
+/*==========================
+          CHUNGCHI
+=============================*/
 .certificate__section {
   background-color: var(--p-750);
   display: flex;
@@ -643,7 +656,9 @@ span {
 .certificate__section p {
   color: var(--n-600);
 }
-/*================PROJECT====================*/
+/*============================
+             PROJECT
+  ==========================*/
 .project_container {
   display: flex;
   flex-direction: column;
@@ -717,7 +732,9 @@ h3 {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-/*================FOOTER====================*/
+/*==============================
+                FOOTER
+  ============================*/
 footer {
   padding: 36px 0;
   text-align: center;
