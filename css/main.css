@@ -108,7 +108,7 @@ p {
   width: 118px;
   height: 118px;
   flex-shrink: 0;
-  background-image: url("../../assets/avt.jpg");
+  background-image: url("../assets/avt.jpg");
   background-size: cover;
   border-radius: 100px;
   background-position: center;
@@ -244,7 +244,7 @@ p {
 
 /* Item 1 */
 .skills__gird_item:nth-child(1) {
-  background-image: url("../../assets/cat1.jpeg");
+  background-image: url("../assets/cat1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -420,12 +420,12 @@ p {
 
 /* Item 4 */
 .skills__gird_item:nth-child(4) {
-  background: url("../../assets/cat3.jpeg") center/cover no-repeat;
+  background: url("../assets/cat3.jpeg") center/cover no-repeat;
   border: none;
 }
 
 .skills__gird_item:nth-child(4):hover {
-  background-image: url("../../assets/cat2.jpeg");
+  background-image: url("../assets/cat2.jpeg");
 }
 /*=================<!---1 vài Skill lập trình-->============================*/
 .skillspercent__section {
