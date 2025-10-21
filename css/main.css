@@ -668,7 +668,7 @@ span {
   justify-content: center;
   align-items: center;
   margin: 70px 0px;
-  gap: 0.7em;
+  gap: 1em;
 }
 h2 {
   font-size: var(--h2-font-size);
