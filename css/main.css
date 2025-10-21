@@ -45,7 +45,7 @@ a {
 }
 body {
   background: linear-gradient(120deg, #f0ffff, #fff0f5);
-  margin: 0 130px;
+  margin: 0 150px;
 }
 /*===================
       HEADER
@@ -110,7 +110,7 @@ p {
   width: 118px;
   height: 118px;
   flex-shrink: 0;
-  background-image: url("../assets/avt.jpg");
+  background-image: url("../../assets/avt.jpg");
   background-size: cover;
   border-radius: 100px;
   background-position: center;
@@ -123,6 +123,8 @@ p {
   transform: scale(1.05);
   box-shadow: 0 8px 25px#ADD8E6;
 }
+/********************************************/
+
 /********************************************/
 /*====================================
            ABOUTME
@@ -152,9 +154,13 @@ p {
   border-radius: 3rem;
   padding: 2rem 0;
 }
-h1 {
+.aboutMe__content_container .section__title {
   color: var(--p-600);
+  line-height: var(--h1-line-height);
+  font-size: var(--h1-font-size);
+  font-weight: bold;
 }
+
 p {
   color: var(--n-600);
   padding: 0 1rem;
@@ -250,7 +256,7 @@ p {
 
 /* Item 1 */
 .skills__gird_item:nth-child(1) {
-  background-image: url("../assets/cat1.jpeg");
+  background-image: url("../../assets/cat1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -426,19 +432,19 @@ p {
 
 /* Item 4 */
 .skills__gird_item:nth-child(4) {
-  background: url("../assets/cat3.jpeg") center/cover no-repeat;
+  background: url("../../assets/cat3.jpeg") center/cover no-repeat;
   border: none;
 }
 
 .skills__gird_item:nth-child(4):hover {
-  background-image: url("../assets/cat2.jpeg");
+  background-image: url("../../assets/cat2.jpeg");
 }
 /*=================<!---1 vài Skill lập trình-->============================*/
 .skillspercent__section {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 60%;
+  width: 65%;
   justify-content: center;
   padding: 2em 2em;
   margin: 1em 2em;
@@ -511,6 +517,7 @@ p {
   background: linear-gradient(90deg, #f7df1e, #ffea00);
   width: 30%;
 }
+
 /*=============================
 
             LANGUAGES
@@ -519,7 +526,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 60%;
+  width: 65%;
   justify-content: center;
   padding: 2em 3em;
   margin: 1em 2em;
@@ -565,6 +572,7 @@ h2 {
 span {
   color: var(--n-600);
 }
+
 /*============================
                 HOBBIES
         ===============================*/
@@ -636,6 +644,7 @@ span {
 .p {
   color: var(--n-600);
 }
+
 /*==========================
           CHUNGCHI
 =============================*/
@@ -647,15 +656,16 @@ span {
   align-items: center;
   margin: 70px 0px;
 }
-.certificate__section h2 {
+h2 {
   font-size: var(--h2-font-size);
   line-height: var(--h2-line-height);
   font-weight: 600;
   text-transform: capitalize;
 }
-.certificate__section p {
+p {
   color: var(--n-600);
 }
+
 /*============================
              PROJECT
   ==========================*/
@@ -732,6 +742,7 @@ h3 {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
+
 /*==============================
                 FOOTER
   ============================*/
@@ -762,4 +773,37 @@ footer a {
 
 footer a:hover {
   color: #005999;
+}
+/*=========nút về home==========*/
+.up {
+  position: fixed; /* đứng yên khi cuộn */
+  bottom: 7em; /* cách đáy 20px */
+  right: 10px; /* sát mép phải màn hình */
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  color: #87cefa;
+  text-align: center;
+  justify-items: center;
+  background: #dcdcdc;
+  border-radius: 24px;
+}
+.up i {
+  padding-top: 15px;
+}
+.up:hover {
+  background: linear-gradient(
+    135deg,
+    #e0ffff,
+    #ffc0cb
+  ); /* đổi hướng gradient khi hover */
+  color: white; /* icon trắng khi hover */
+  transform: translateY(-5px) scale(1.1); /* nhấc và phóng to nhẹ */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* bóng nổi */
+  transition: all 0.3s ease; /* mượt khi hover */
+}
+h1 {
+  font-size: var(--h1-font-size) !important;
+  line-height: var(--h1-line-height) !important;
+  font-weight: bold !important;
 }
