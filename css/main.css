@@ -45,7 +45,7 @@ a {
 }
 body {
   background: linear-gradient(120deg, #f0ffff, #fff0f5);
-  /* margin: 0 120px; */
+  margin: 0 60px;
 }
 /*===================
       HEADER
@@ -447,7 +447,7 @@ p {
   width: 65%;
   justify-content: center;
   padding: 2em 3em;
-  margin: 1em 2em;
+  margin: 1em 3em;
   border: 2px solid var(--p-100);
 
   border-radius: 24px;
@@ -529,7 +529,7 @@ p {
   width: 65%;
   justify-content: center;
   padding: 2em 3em;
-  margin: 1em 2em;
+  margin: 1em 3em;
   border: 2px solid var(--p-100);
 
   border-radius: 24px;
@@ -593,7 +593,7 @@ span {
   padding: 10px 0; /* ẩn thanh cuộn */
   scrollbar-width: none;
   -ms-overflow-style: none;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .hobby__container::-webkit-scrollbar {
   display: none;
