@@ -934,6 +934,12 @@ header::after {
   text-transform: capitalize;
   color: var(--highlight-color);
 }
+span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
 .languages__container {
   display: flex;
   flex-direction: column;
